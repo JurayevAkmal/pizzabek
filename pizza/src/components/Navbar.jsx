@@ -15,11 +15,12 @@ export default function Navbar() {
      </Link>
       <input type="search" placeholder="Pitsalarni qidirish" />
       <Link to="/cart">
-      <button>
+      {/* <button>
         <span>0 UZS</span>
         <span><img src={CART} alt="" />
          </span>
-         </button>
+         </button> */}
+         <h2 className="regClass">Registration</h2>
       </Link>
     </div>
   )

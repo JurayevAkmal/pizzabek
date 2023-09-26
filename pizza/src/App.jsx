@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Cart from './pages/Cart'
 import Home from './pages/Home'
+import Single from './components/Single'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
             <Routes>
                 <Route path='/' element={<Home/>} />
                 <Route path='/cart' element={<Cart/>} />
+                <Route path='/single`${:id}`' element={<Single/>} />
             </Routes>
         </BrowserRouter>
     </div>
